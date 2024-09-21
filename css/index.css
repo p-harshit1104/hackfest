@@ -1,0 +1,37 @@
+/* Global settings */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Ranchers', sans-serif;
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Typography */
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.carousel-caption h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #03396c;
+    opacity: 0.9;
+}
+
+.btn-danger {
+    border-radius: 30px;
+}
